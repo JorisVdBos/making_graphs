@@ -14,5 +14,5 @@ constructPlot2 <- function(){
                                              xlab = "",
                                              ylab = "Global Active Power (kilowatts)", 
                                              type = "n"))
-        with(householdPowerConsumption, lines(DateTime, Global_active_power))
+        with(householdPowerConsumption, lines(Date + Time, Global_active_power))
 }

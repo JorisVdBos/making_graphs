@@ -1,7 +1,7 @@
 # This code is used in the dataExploration.R code
 
 createPlot1 <- function(){
-        png(paste0("plot",n,".png"), width = 480, height = 480)
+        png(paste0("plot.png"), width = 480, height = 480)
         par(mfrow = c(1,1))
         
         constructPlot1()

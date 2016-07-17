@@ -21,12 +21,12 @@ constructPlot4 <- function(){
                                              xlab = "datetime",
                                              ylab = "Voltage", 
                                              type = "n"))
-        with(householdPowerConsumption, lines(DateTime, Voltage))
+        with(householdPowerConsumption, lines(Date + Time, Voltage))
 }
 
 constructPlot5 <- function(){
         with(householdPowerConsumption, plot(Date + Time, Global_reactive_power,
                                              xlab = "datetime",
                                              type = "n"))
-        with(householdPowerConsumption, lines(DateTime, Global_reactive_power))
+        with(householdPowerConsumption, lines(Date + Time, Global_reactive_power))
 }
