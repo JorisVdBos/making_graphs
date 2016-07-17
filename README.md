@@ -1,3 +1,14 @@
+## Construction of the plots
+
+Hi reviewer!
+
+I have constructed my files as such:
+* dataExploration.R: Is the main file. Sourcing this fill will source the following 5 files, in this order.
+* getData.R: This file checks if the data is present, and will download the data if not present. It will then see if the data has been loaded into the environment and if not, load the data in the environment.
+* plot1.R to plot4.R: Contains functions to create the plots 1 to 4. Note that I have worked with functions, so sourcing these files does not create the plots. You still need to call the function "constructPlotX()" with X from 1 to 4. This is also done automatically in the dataExploration.R file!
+
+Enjoy your day!
+
 ## Introduction
 
 This assignment uses data from
